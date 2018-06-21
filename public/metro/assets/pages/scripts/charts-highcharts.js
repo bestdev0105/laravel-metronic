@@ -56,7 +56,7 @@ jQuery(document).ready(function() {
 
 	// LINE CHART 2
 	$.getJSON('http://www.highcharts.com/samples/data/jsonp.php?filename=usdeur.json&callback=?', function (data) {
-
+        console.log(data);
         $('#highchart_2').highcharts({
             chart: {
                 zoomType: 'x',

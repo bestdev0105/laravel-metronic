@@ -62,8 +62,8 @@ License: You must have a valid license purchased only from themeforest(the above
                         </div>
                     </div>
                     <!-- END LOGO -->
-                    <a href="/home">
-                            <img src="{{ asset('media/petronas_logo_48.png')}}" height="50px" alt="logo" class="logo-default" /> </a>
+                    <a href="/home" style="margin-left:10px">
+                        <img src="{{ asset('media/petronas_logo_48.png')}}" height="50px" alt="logo" class="logo-default" /> </a>
                     <span class="site-title-span">UAUC Insights Dashboard</span>
                     <!-- BEGIN TOP NAVIGATION MENU -->
                     <div class="top-menu">
@@ -230,13 +230,15 @@ License: You must have a valid license purchased only from themeforest(the above
         <!-- BEGIN THEME GLOBAL SCRIPTS -->
         <script src="{{ asset('metro/assets/global/scripts/app.min.js')}}" type="text/javascript"></script>
         <!-- END THEME GLOBAL SCRIPTS -->
+        <!-- BEGIN PAGE CUSTOM SCRIPTS -->
+        @yield('child_js')
+        <!-- END PAGE CUSTOM SCRIPTS -->
         <!-- BEGIN THEME LAYOUT SCRIPTS -->
         <script src="{{ asset('metro/assets/layouts/layout/scripts/layout.min.js')}}" type="text/javascript"></script>
         <script src="{{ asset('metro/assets/layouts/layout/scripts/demo.min.js')}}" type="text/javascript"></script>
         <script src="{{ asset('metro/assets/layouts/global/scripts/quick-sidebar.min.js')}}" type="text/javascript"></script>
         <script src="{{ asset('metro/assets/layouts/global/scripts/quick-nav.min.js')}}" type="text/javascript"></script>
         <!-- END THEME LAYOUT SCRIPTS -->
-        @yield('child_js')
     </body>
 
 </html>

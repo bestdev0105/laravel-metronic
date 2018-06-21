@@ -19,7 +19,15 @@ Route::get('/', 'HomeController@index');
 
 
 Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/status', 'StatusController@index');
+Route::get('/probable_incidents', 'IncidentsController@index');
+Route::get('/underlying_risk', 'RiskController@index');
+Route::get('/anomaly', 'AnomalyController@index');
+Route::get('/duplication_reports', 'ReportsController@index');
+Route::get('/potential_violation', 'ViolationController@index');
+Route::get('/observation', 'ObservationController@index');
 
+Route::get('/getTrendData', 'StatusController@getTrendData');
 /* Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');

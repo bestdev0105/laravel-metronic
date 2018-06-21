@@ -1,0 +1,16 @@
+.status_top_bar {
+    border-bottom: 1px solid #00a19c;
+    border-right: 1px solid #00a19c;
+    padding: 5px;
+}
+.status_top_span {
+    font-size: 22px;
+    color: #00a19c;
+}
+.status_top_select {
+    border: none;
+    background-color: #dddddd;
+}
+.status_top {
+    margin-bottom: 15px;
+}
