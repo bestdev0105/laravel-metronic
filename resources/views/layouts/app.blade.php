@@ -33,6 +33,7 @@ License: You must have a valid license purchased only from themeforest(the above
         <link href="{{ asset('metro/assets/global/plugins/bootstrap/css/bootstrap.min.css')}}" rel="stylesheet" type="text/css" />
         <link href="{{ asset('metro/assets/global/plugins/bootstrap-switch/css/bootstrap-switch.min.css')}}" rel="stylesheet" type="text/css" />
         <!-- END GLOBAL MANDATORY STYLES -->
+        @yield('child_css')
         <!-- BEGIN THEME GLOBAL STYLES -->
         <link href="{{ asset('metro/assets/global/css/components-rounded.min.css')}}" rel="stylesheet" id="style_components" type="text/css" />
         <link href="{{ asset('metro/assets/global/css/plugins.min.css')}}" rel="stylesheet" type="text/css" />
@@ -45,7 +46,6 @@ License: You must have a valid license purchased only from themeforest(the above
         <!-- BEGIN COMMON CUSTOM LAYOUT STYLES -->
         <link href="{{ asset('css/common_custom.css')}}" rel="stylesheet" type="text/css" />
         <!-- END COMMON CUSTOM LAYOUT STYLES -->
-        @yield('child_css')
         <link rel="shortcut icon" href="favicon.ico" /> </head>
     <!-- END HEAD -->
 

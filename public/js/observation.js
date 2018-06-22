@@ -2,7 +2,8 @@ $(document).ready(function () {
     $('#highchart_1').highcharts({
         chart: {
             type: 'scatter',
-            zoomType: 'xy'
+            zoomType: 'xy',
+            backgroundColor: '#cccccc'
         },
         xAxis: {
             title: {
@@ -14,7 +15,7 @@ $(document).ready(function () {
             startOnTick: true,
             minorTickLength: 0,
             labels: {
-                enabled: false
+                enabled: true
             },
             lineWidth: 0,
             lineColor: 'transparent',
@@ -34,7 +35,7 @@ $(document).ready(function () {
             endOnTick: true,
             showLastLabel: true,
             labels: {
-                enabled: false
+                enabled: true
             },
             lineWidth: 0,
             lineColor: 'transparent',
@@ -77,7 +78,7 @@ $(document).ready(function () {
                 },
                 tooltip: {
                     headerFormat: '<b>{series.name}</b><br>',
-                    pointFormat: 'X: {point.x}, Y: {point.y}'
+                    pointFormat: 'X: {point.x}<br>Y: {point.y}'
                 }
             }
         },

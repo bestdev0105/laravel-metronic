@@ -1,0 +1,54 @@
+.anomaly_top_bar {
+    border-bottom: 1px solid #00a19c;
+    border-right: 1px solid #00a19c;
+    padding: 5px;
+}
+
+.anomaly_top_span {
+    font-size: 22px;
+    color: #00a19c;
+}
+
+.anomaly_top_select {
+    border: none;
+    background-color: #dddddd;
+}
+
+.anomaly_top {
+    margin-bottom: 15px;
+}
+
+.anomaly_chart_caption {
+    color: #9eacb4;
+    font-style: italic;
+    font-size: 18px;
+}
+
+.anomaly_chart_sub {
+    color: #dd660b;
+    font-style: italic;
+    font-size: 18px;
+}
+
+div.dataTables_wrapper div.dataTables_paginate {
+    text-align: center;
+    float: initial;
+}
+
+.portlet-body table.table-bordered.dataTable th {
+    color:#9eacb4;
+    font-size: 13px;
+    padding: 8px 10px;
+    font-weight: 300;
+}
+
+.portlet-body table.table-bordered.dataTable th,
+.portlet-body table.table-bordered.dataTable td {
+    border-left: none;
+    border-right: none;
+}
+
+.portlet-body table {
+    border: none;
+    border-bottom: 1px;
+}
