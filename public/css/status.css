@@ -14,3 +14,23 @@
 .status_top {
     margin-bottom: 15px;
 }
+.status_chart_caption {
+    color: #9eacb4;
+    font-style: italic;
+    font-size: 18px;
+}
+.count_open_uauc {
+    float: right;
+}
+.count_open_uauc .count_open {
+    font-size: 28px;
+    color:#dd660b;
+}
+.count_open_uauc .count_incident {
+    font-size: 28px;
+    color: #5b9e99;
+}
+.count_open_uauc .incident_this_year {
+    color: #9eacb4;
+    font-size: 18px;
+}

@@ -18,8 +18,28 @@ $(document).ready(function () {
                     inputEnabled: false,
                     buttons: [{
                         type: 'month',
+                        count: 1,
+                        text: 'Past 30 days',
+                        dataGrouping: {
+                            forced: true,
+                            units: [
+                                ['day', [1]]
+                            ]
+                        }
+                    }, {
+                        type: 'month',
                         count: 3,
-                        text: 'Day',
+                        text: 'Past 3 months',
+                        dataGrouping: {
+                            forced: true,
+                            units: [
+                                ['day', [1]]
+                            ]
+                        }
+                    }, {
+                        type: 'month',
+                        count: 6,
+                        text: 'Past 6 months',
                         dataGrouping: {
                             forced: true,
                             units: [
@@ -29,7 +49,7 @@ $(document).ready(function () {
                     }, {
                         type: 'year',
                         count: 1,
-                        text: 'Week',
+                        text: 'Past 1 year',
                         dataGrouping: {
                             forced: true,
                             units: [
@@ -37,17 +57,18 @@ $(document).ready(function () {
                             ]
                         }
                     }, {
-                        type: 'all',
-                        text: 'Month',
+                        type: 'year',
+                        count: 5,
+                        text: 'Past 5 year',
                         dataGrouping: {
                             forced: true,
                             units: [
-                                ['month', [1]]
+                                ['week', [1]]
                             ]
                         }
                     }],
                     buttonTheme: {
-                        width: 60
+                        width: 100
                     }
                 },
 
@@ -93,10 +114,10 @@ $(document).ready(function () {
                     enabled: false
                 },
 
-                tooltip: {
+                /* tooltip: {
                     pointFormat: '<span style="color:{series.color}">{series.name}</span>: <b>{point.y}</b> ({point.change}%)<br/>',
                     valueDecimals: 2
-                },
+                }, */
 
                 series: seriesOptions
             });
@@ -129,7 +150,10 @@ $(document).ready(function () {
             type: 'column'
         },
         title: {
-            text: null
+            text: 'Number of Open UAUC',
+            x: 0,
+            y: 40,
+            align: 'left'
         },
         xAxis: {
             categories: [
@@ -186,7 +210,10 @@ $(document).ready(function () {
             type: 'column'
         },
         title: {
-            text: null
+            text: 'Number of Incident',
+            x: 0,
+            y: 40,
+            align: 'left'
         },
         xAxis: {
             categories: [
@@ -208,7 +235,7 @@ $(document).ready(function () {
             min: 0,
             gridLineWidth: 0,
             title: {
-                text: null
+                text: null,
             },
             categories: [
                 '0',
