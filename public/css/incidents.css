@@ -1,33 +1,21 @@
-.incidents_top_bar {
+.incident_top_bar {
     border-bottom: 1px solid #00a19c;
     border-right: 1px solid #00a19c;
     padding: 5px;
 }
 
-.incidents_top_span {
+.incident_top_span {
     font-size: 22px;
     color: #00a19c;
 }
 
-.incidents_top_select {
+.incident_top_select {
     border: none;
     background-color: #dddddd;
 }
 
-.incidents_top {
+.incident_top {
     margin-bottom: 15px;
-}
-
-.incidents_chart_caption {
-    color: #9eacb4;
-    font-style: italic;
-    font-size: 18px;
-}
-
-.incidents_chart_sub {
-    color: #dd660b;
-    font-style: italic;
-    font-size: 18px;
 }
 
 div.dataTables_wrapper div.dataTables_paginate {
@@ -83,7 +71,8 @@ div.dataTables_wrapper div.dataTables_paginate {
 }
 
 .incident_portlet_2 .incident_portlet_2_1,
-.incident_portlet_3 .incident_portlet_3_1 {
+.incident_portlet_3 .incident_portlet_3_1,
+.incident_portlet_4 .incident_portlet_4_1 {
     color: #9eacb4;
     font-size: 20px;
     font-weight: 500;
@@ -99,7 +88,8 @@ div.dataTables_wrapper div.dataTables_paginate {
     font-size: 12px;
 }
 
-.incident_portlet_3 {
+.incident_portlet_3,
+.incident_portlet_4 {
     padding-left: 0;
 }
 
@@ -107,7 +97,12 @@ div.dataTables_wrapper div.dataTables_paginate {
     height: 250px;
 }
 
-div.incident_portlet_3:last-child {
+.incident_portlet_4 .portlet {
+    height: 200px;
+}
+
+div.incident_portlet_3:last-child,
+div.incident_portlet_4:last-child {
     padding-right: 0;
 }
 
@@ -115,3 +110,43 @@ div.incident_portlet_3:last-child {
     color: #9eacb4;
     font-size: 14px;
 }
+
+.incident_portlet_4 .incident_portlet_4_fav {
+    font-size: 16px;
+    color: #00a19c;
+    margin-left: 10px;
+}
+
+.incident_portlet_4 .incident_portlet_4_border {
+    border-bottom: #9eacb4 1px solid;
+}
+
+.incident_portlet_4 .incident_portlet_4_2_1,
+.incident_portlet_4 .incident_portlet_4_4_2 {
+    color: #9eacb4;
+    font-size: 18px;
+}
+
+.incident_portlet_4 .incident_portlet_4_2_2,
+.incident_portlet_4 .incident_portlet_4_3_2,
+.incident_portlet_4 .incident_portlet_4_4_3 {
+    font-size: 18px;
+}
+
+.incident_portlet_4 .incident_portlet_4_2,
+.incident_portlet_4 .incident_portlet_4_4 {
+    margin-bottom: 10px;
+}
+
+.incident_portlet_4 .incident_portlet_4_title {
+    margin-bottom: 20px;
+}
+
+.incident_portlet_4 .incident_portlet_4_3_1 {
+    font-size:32px;
+}
+
+.incident_portlet_4 .incident_portlet_4_padding_0 {
+    padding: 0;
+}
+

@@ -71,8 +71,8 @@ $(document).ready(function () {
     //loop 
     $("[name='poll_bar'").each(function (i) {
         //get poll value 	
-        var bar_width = (parseFloat($("[name='poll_val'").eq(i).text()) / 2).toString();
-        bar_width = bar_width + "%"; //add percentage sign.										
+        var bar_width = parseFloat($("[name='poll_val'").eq(i).text()).toString();
+        bar_width = bar_width + "%"; //add percentage sign.
         //set bar button width as per poll value mention in span.
         $("[name='poll_bar'").eq(i).width(bar_width);
 
@@ -203,12 +203,8 @@ $(document).ready(function () {
             }
         ],
         browserData = [],
-        versionsData = [],
         i,
-        j,
-        dataLen = data.length,
-        drillDataLen,
-        brightness;
+        dataLen = data.length;
 
     var pieColors = (function () {
         var colors = [],

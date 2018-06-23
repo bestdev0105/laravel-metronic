@@ -25,6 +25,7 @@ Route::get('/underlying_risk', 'RiskController@index');
 Route::get('/anomaly', 'AnomalyController@index');
 Route::get('/duplication_reports', 'ReportsController@index');
 Route::get('/potential_violation', 'ViolationController@index');
+Route::get('/potential_violation2', 'ViolationController@index2');
 Route::get('/observation', 'ObservationController@index');
 
 Route::get('/getTrendData', 'StatusController@getTrendData');

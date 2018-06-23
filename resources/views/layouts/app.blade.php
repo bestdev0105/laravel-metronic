@@ -63,7 +63,8 @@ License: You must have a valid license purchased only from themeforest(the above
                     </div>
                     <!-- END LOGO -->
                     <a href="/home" style="margin-left:10px">
-                        <img src="{{ asset('media/petronas_logo_48.png')}}" height="50px" alt="logo" class="logo-default" /> </a>
+                        <img src="{{ asset('media/petronas_logo_48.png')}}" height="50px" alt="logo" class="logo-default" /> 
+                    </a>
                     <span class="site-title-span">UAUC Insights Dashboard</span>
                     <!-- BEGIN TOP NAVIGATION MENU -->
                     <div class="top-menu">

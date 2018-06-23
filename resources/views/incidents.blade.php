@@ -7,22 +7,22 @@
 @endsection
 
 @section('content')
-<div class="m-grid incidents_top">
+<div class="m-grid incident_top">
     <div class="m-grid-row">
-        <div class="m-grid-col-lg-8 m-grid-col-md-8 m-grid-col-sm-6 m-grid-col-xs-12 m-grid-col m-grid-col-bottom incidents_top_bar">
-            <span class="incidents_top_span">Probable Incidents</span>
+        <div class="m-grid-col-lg-8 m-grid-col-md-8 m-grid-col-sm-6 m-grid-col-xs-12 m-grid-col m-grid-col-bottom incident_top_bar">
+            <span class="incident_top_span">Probable Incidents</span>
         </div>
 
-        <div class="m-grid-col-lg-2 m-grid-col-md-2 m-grid-col-sm-3 m-grid-col-xs-12 m-grid-col m-grid-col-bottom incidents_top_bar">
-            <select class="bs-select form-control incidents_top_select">
+        <div class="m-grid-col-lg-2 m-grid-col-md-2 m-grid-col-sm-3 m-grid-col-xs-12 m-grid-col m-grid-col-bottom incident_top_bar">
+            <select class="bs-select form-control incident_top_select">
                 <option>All Fields</option>
                 <option>Ketchup</option>
                 <option>Relish</option>
             </select>
         </div>
 
-        <div class="m-grid-col-lg-2 m-grid-col-md-2 m-grid-col-sm-3 m-grid-col-xs-12 m-grid-col m-grid-col-bottom incidents_top_bar">
-            <select class="bs-select form-control incidents_top_select">
+        <div class="m-grid-col-lg-2 m-grid-col-md-2 m-grid-col-sm-3 m-grid-col-xs-12 m-grid-col m-grid-col-bottom incident_top_bar">
+            <select class="bs-select form-control incident_top_select">
                 <option>Yesterday</option>
                 <option>15 days</option>
                 <option>1 month</option>
@@ -300,6 +300,155 @@
                         </div>
                         <div class="col-md-12 text-left">
                             <span class="incident_portlet_3_2">Not available</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="clearfix"></div>
+<div class="row">
+    <div class="col-md-12">
+        <div class="col-md-2 incident_portlet_4">
+            <div class="portlet light portlet-fit bordered">
+                <div class="portlet-body">
+                    <div class="row">
+                        <div class="col-md-12 text-left incident_portlet_4_title">
+                            <span class="incident_portlet_4_1">UAUC Status</span>
+                        </div>
+                        <div class="col-md-12 incident_portlet_4_2">
+                            <div class="col-md-6 pl-0 text-left">
+                                <span class="incident_portlet_4_2_1">Open</span>
+                            </div>
+                            <div class="col-md-6 text-right">
+                                <span class="incident_portlet_4_2_2">24</span>
+                            </div>
+                        </div>
+                        <div class="col-md-12 incident_portlet_4_2">
+                            <div class="col-md-6 pl-0 text-left incident_portlet_4_border">
+                                <span class="incident_portlet_4_2_1">Closed</span>
+                            </div>
+                            <div class="col-md-6 text-right incident_portlet_4_border">
+                                <span class="incident_portlet_4_2_2">55</span>
+                            </div>
+                        </div>
+                        <div class="col-md-12 incident_portlet_4_2">
+                            <div class="col-md-6 pl-0 text-left incident_portlet_4_border">
+                                <span class="incident_portlet_4_2_1">Total</span>
+                            </div>
+                            <div class="col-md-6 text-right incident_portlet_4_border">
+                                <span class="incident_portlet_4_2_2">79</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 incident_portlet_4">
+            <div class="portlet light portlet-fit bordered">
+                <div class="portlet-body">
+                    <div class="row">
+                        <div class="col-md-12 text-left incident_portlet_4_title">
+                            <span class="incident_portlet_4_1">Observer</span>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="col-md-4 text-center">
+                                <span class="incident_portlet_4_3_1">42%</span>
+                            </div>
+                            <div class="col-md-8">
+                                <span class="incident_portlet_4_3_2">of reported UAUC are submitted by the same personnel</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-7 incident_portlet_4">
+            <div class="portlet light portlet-fit bordered">
+                <div class="portlet-body">
+                    <div class="row">
+                        <div class="col-md-12 text-left incident_portlet_4_title">
+                            <span class="incident_portlet_4_1">Related Past Incident</span>
+                            <a href="javascript:;"><i class="fa fa-chevron-circle-right incident_portlet_4_fav"></i></a>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="col-md-6 incident_portlet_4_padding_0">
+                                <div class="col-md-12 incident_portlet_4_padding_0 incident_portlet_4_4">
+                                    <div class="col-md-4 incident_portlet_4_padding_0">
+                                        <span class="incident_portlet_4_4_2">2017/05/24</span>
+                                    </div>
+                                    <div class="col-md-4 incident_portlet_4_padding_0">
+                                        <span class="incident_portlet_4_4_3">Personal Injury</span>
+                                    </div>
+                                    <div class="col-md-4 incident_portlet_4_padding_0">
+                                        <span class="incident_portlet_4_4_3">Dulang B</span>
+                                        <a href="javascript:;"><i class="fa fa-angle-right incident_portlet_4_fav"></i></a>
+                                    </div>
+                                </div>
+                                <div class="col-md-12 incident_portlet_4_padding_0 incident_portlet_4_4">
+                                    <div class="col-md-4 incident_portlet_4_padding_0">
+                                        <span class="incident_portlet_4_4_2">2017/05/24</span>
+                                    </div>
+                                    <div class="col-md-4 incident_portlet_4_padding_0">
+                                        <span class="incident_portlet_4_4_3">Personal Injury</span>
+                                    </div>
+                                    <div class="col-md-4 incident_portlet_4_padding_0">
+                                        <span class="incident_portlet_4_4_3">Dulang A</span>
+                                        <a href="javascript:;"><i class="fa fa-angle-right incident_portlet_4_fav"></i></a>
+                                    </div>
+                                </div>
+                                <div class="col-md-12 incident_portlet_4_padding_0 incident_portlet_4_4">
+                                    <div class="col-md-4 incident_portlet_4_padding_0">
+                                        <span class="incident_portlet_4_4_2">2017/05/24</span>
+                                    </div>
+                                    <div class="col-md-4 incident_portlet_4_padding_0">
+                                        <span class="incident_portlet_4_4_3">Personal Injury</span>
+                                    </div>
+                                    <div class="col-md-4 incident_portlet_4_padding_0">
+                                        <span class="incident_portlet_4_4_3">Dulang C</span>
+                                        <a href="javascript:;"><i class="fa fa-angle-right incident_portlet_4_fav"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 incident_portlet_4_padding_0">
+                                <div class="col-md-12 incident_portlet_4_padding_0 incident_portlet_4_4">
+                                    <div class="col-md-4 incident_portlet_4_padding_0">
+                                        <span class="incident_portlet_4_4_2">2017/05/24</span>
+                                    </div>
+                                    <div class="col-md-4 incident_portlet_4_padding_0">
+                                        <span class="incident_portlet_4_4_3">Personal Injury</span>
+                                    </div>
+                                    <div class="col-md-4 incident_portlet_4_padding_0">
+                                        <span class="incident_portlet_4_4_3">Dulang B</span>
+                                        <a href="javascript:;"><i class="fa fa-angle-right incident_portlet_4_fav"></i></a>
+                                    </div>
+                                </div>
+                                <div class="col-md-12 incident_portlet_4_padding_0 incident_portlet_4_4">
+                                    <div class="col-md-4 incident_portlet_4_padding_0">
+                                        <span class="incident_portlet_4_4_2">2017/05/24</span>
+                                    </div>
+                                    <div class="col-md-4 incident_portlet_4_padding_0">
+                                        <span class="incident_portlet_4_4_3">Personal Injury</span>
+                                    </div>
+                                    <div class="col-md-4 incident_portlet_4_padding_0">
+                                        <span class="incident_portlet_4_4_3">Dulang A</span>
+                                        <a href="javascript:;"><i class="fa fa-angle-right incident_portlet_4_fav"></i></a>
+                                    </div>
+                                </div>
+                                <div class="col-md-12 incident_portlet_4_padding_0 incident_portlet_4_4">
+                                    <div class="col-md-4 incident_portlet_4_padding_0">
+                                        <span class="incident_portlet_4_4_2">2017/05/24</span>
+                                    </div>
+                                    <div class="col-md-4 incident_portlet_4_padding_0">
+                                        <span class="incident_portlet_4_4_3">Personal Injury</span>
+                                    </div>
+                                    <div class="col-md-4 incident_portlet_4_padding_0">
+                                        <span class="incident_portlet_4_4_3">Dulang C</span>
+                                        <a href="javascript:;"><i class="fa fa-angle-right incident_portlet_4_fav"></i></a>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>

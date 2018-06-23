@@ -26,4 +26,10 @@ class ViolationController extends Controller
         $selectmenu = "potential_violation";
         return view('violation', compact('selectmenu'));
     }
+
+    public function index2()
+    {
+        $selectmenu = "potential_violation";
+        return view('violation2', compact('selectmenu'));
+    }
 }
